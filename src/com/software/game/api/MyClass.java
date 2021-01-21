@@ -78,6 +78,18 @@ public class MyClass {
 		return age;
 	}
 	 */
-	
+	public void myfunction() {
+		String [] student= {"Game", "Magari","Daud","Eric"};
+		for (int i = 0; i < student.length; i++) {
+			System.out.println(student[i]);
+		}
+		System.out.println("**************************");
+		String univ="Bugema University";
+		char[] myCharacter=univ.toCharArray();
+		
+		for (char c : myCharacter) {
+			System.out.print(c + " ");
+		}
+	}
 
 }

@@ -19,6 +19,7 @@ public class OpenClass {
 		obj.setName("Kakumirizi");
 		obj.setElligibility(true);
 		System.out.println(obj.toString());
+		obj.myfunction();
 		
 	}
 	
