@@ -62,7 +62,10 @@ public class MyClass {
 	 */
 	@Override
 	public String toString() {
+		System.out.println("*******************************************************");
+		//System.out.println("**********************************");
 		return "MyClass [age= " + age + ", name= " + name + ", elligibility= " + elligibility + "]";
+		
 	}
 	
 	/**
@@ -79,11 +82,12 @@ public class MyClass {
 	}
 	 */
 	public void myfunction() {
-		String [] student= {"Game", "Magari","Daud","Eric"};
+		String[] student = { "Game", "Magari", "Daud", "Eric", "Erick" };
 		for (int i = 0; i < student.length; i++) {
 			System.out.println(student[i]);
 		}
-		System.out.println("**************************");
+		
+		System.out.println("**********************************");
 		String univ="Bugema University";
 		char[] myCharacter=univ.toCharArray();
 		
